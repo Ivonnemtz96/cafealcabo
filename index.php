@@ -1,11 +1,6 @@
-<?php 
-  include('indexcontroller.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
 <?php
-$title = 'Contacto';
-$contacto = 'active';
 include('includes/head.php');
 ?>
 
@@ -15,9 +10,7 @@ include('includes/head.php');
     ?>
     <div class="page-wrapper">
         <?php
-        include('includes/header.php');
-        include('includes/preloader.php');
-        include($lenguaje.'/opiniones.php');
+        include('modules/index.php');
         include('includes/footer.php');
         ?>
     </div>

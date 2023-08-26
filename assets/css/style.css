@@ -1190,7 +1190,7 @@ select {
 }
 
 .content-wrapper {
-  margin-top: 134px;
+  margin-top: 0px;
 }
 
 .bg-transparent {
@@ -2080,7 +2080,7 @@ select {
   content: "";
   width: 100%;
   z-index: -1;
-  height: 70%;
+  /* height: 70%; */
   background-color: #F5F6FA;
 }
 
